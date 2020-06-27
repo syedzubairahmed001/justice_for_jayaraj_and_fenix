@@ -45,12 +45,14 @@ export default function Home() {
           case, Yes we can do it, Lets do it!
         </Typography>
         <Box mt={2}>
-          <Button color="primary" variant="contained" size="large">
-            About the movement
-          </Button>
+          <a href="#about-sec" style={{ textDecoration: "none" }}>
+            <Button color="primary" variant="contained" size="large">
+              About the movement
+            </Button>
+          </a>
         </Box>
       </header>
-      <Box className={styles.sec} p={3}>
+      <Box className={styles.sec} p={3} id="about-sec">
         <Box mb={1}>
           <Typography variant="h4" color="textPrimary" align="center">
             What happened?
