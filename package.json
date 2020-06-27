@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.10.2",
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-ga": "^3.0.0",
+    "sass": "^1.26.9"
   }
 }
