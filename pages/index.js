@@ -7,13 +7,11 @@ import App from "../components/App";
 export default function Home() {
   useEffect(() => {
     if (process.env.NODE_ENV !== "development") {
-      if (config.GA_ID) {
-        if (!window.GA_INITIALIZED) {
-          initGA();
-          window.GA_INITIALIZED = true;
-        }
-        logPageView();
+      if (!window.GA_INITIALIZED) {
+        initGA();
+        window.GA_INITIALIZED = true;
       }
+      logPageView();
     }
   }, []);
   return (
