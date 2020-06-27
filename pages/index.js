@@ -22,6 +22,10 @@ export default function Home() {
           name="description"
           content="Justice for Jayaraj and Fenix, Raise your voices to make a change just like we did in George Floyd case! Yes we can do it, Lets do it"
         ></meta>
+        <meta
+          name="google-site-verification"
+          content="GMukjUvzX7N_4jFCWt-Hu2lgJ4Xi1aDF5r0TZiciNHc"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
