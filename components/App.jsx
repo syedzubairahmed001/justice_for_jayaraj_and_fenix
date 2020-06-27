@@ -89,7 +89,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="https://ctt.ac/b26uy" target="_blank">
+              <a href="https://ctt.ac/9ZG0Q" target="_blank">
                 Tweet with #JusticeForJayarajAndFenix
               </a>
             </li>
